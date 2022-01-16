@@ -63,7 +63,7 @@ email: ""
 #   Set this to `[]` or comment out if you are not using People widget.  
 
 ---
-I am a **Ph.D. Candidate** at Tel Aviv University, working in the Deep Learning Lab under the supervision of [Prof. Lior Wolf.](http://www.cs.tau.ac.il/~wolf/)
+I am a Ph.D. Candidate at Tel Aviv University, working in the Deep Learning Lab under the supervision of [Prof. Lior Wolf.](http://www.cs.tau.ac.il/~wolf/)
 
 My main interests are computer vision, NLP, and multi-modal learning.
 My research is mostly focused on attention-based models and explainable-AI.
