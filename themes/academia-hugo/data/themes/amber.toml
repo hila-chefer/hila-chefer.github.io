@@ -1,0 +1,18 @@
+# Theme metadata
+name = "Snoopy"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#b54845"
+
+# Menu
+menu_primary = "#fff4e6"
+menu_text = "#3c2f2f"
+menu_text_active = "#be9b7b"
+menu_title = "#3c2f2f"
+
+# Home sections
+home_section_odd = "rgb(255, 255, 255)"
+home_section_even = "rgb(247, 247, 247)"
