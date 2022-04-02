@@ -35,7 +35,7 @@ links:
 url_code: ""
 url_pdf: ""
 url_slides: ""
-url_video: "https://www.youtube.com/watch?v=i0cP4JKe3yE"
+url_video: "https://www.youtube.com/watch?v=pseZwRyLrtc"
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.

@@ -36,12 +36,13 @@ tags:
 - Encoder-Decoder
 featured: false
 
-#links:
+links:
+- name: 12 min summary (ICCV)
+  url: https://www.youtube.com/watch?v=bQTL34Dln-M&t=236s
 url_pdf: https://openaccess.thecvf.com/content/ICCV2021/papers/Chefer_Generic_Attention-Model_Explainability_for_Interpreting_Bi-Modal_and_Encoder-Decoder_Transformers_ICCV_2021_paper.pdf
+url_code: 'https://github.com/hila-chefer/Transformer-MM-Explainability'
 #- name: ""
 #   url: ""
- 
-url_code: 'https://github.com/hila-chefer/Transformer-MM-Explainability'
 # url_dataset: ''
 # url_poster: ''
 # url_project: ''
