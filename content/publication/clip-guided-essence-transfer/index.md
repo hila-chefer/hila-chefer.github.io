@@ -5,7 +5,7 @@ authors:
 - Sagie Benaim
 - Roni Paiss
 - Lior Wolf
-date: "2021-10-20T00:00:00Z"
+date: "2022-10-20T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -15,11 +15,11 @@ publishDate: "2021-10-01T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["0"]
+publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
-publication_short: ""
+publication: IEEE/CVF European Conference on Computer Vision (ECCV)
+publication_short: In *ECCV*
 
 abstract: "We make the distinction between (i) style transfer, in which a source image is manipulated to match the textures and colors of a target image, and (ii) essence transfer, in which one edits the source image to include high-level semantic attributes from the target. Crucially, the semantic attributes that constitute the essence of an image may differ from image to image. Our blending operator combines the powerful StyleGAN generator and the semantic encoder of CLIP in a novel way that is simultaneously additive in both latent spaces, resulting in a mechanism that guarantees both identity preservation and high-level feature transfer without relying on a facial recognition network. We present two variants of our method. The first is based on optimization, while the second fine-tunes an existing inversion encoder to perform essence extraction. Through extensive experiments, we demonstrate the superiority of our methods for essence transfer over existing methods for style transfer, domain adaptation, and text-based semantic editing."
 
