@@ -28,11 +28,11 @@
 
 <div class="card-simple" itemscope itemtype="http://schema.org/{{$microdata_type}}">
     {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
-    {{ $anchor := $item.Params.image.focal_point | default "Smart" }}
+    {{ $anchor := $item.Params.image.focal_point | default "TopLeft" }}
     {{ with $resource }}
-    {{ $image := .Fill (printf "918x517 q90 %s" $anchor) }}
+    {{ $image := .Fill (printf "400x200 q90 %s" $anchor) }}
     <a href="{{ $item.RelPermalink }}">
-      <img src="{{ $image.RelPermalink }}" class="article-banner" itemprop="image" alt="">
+      <img src="{{ $image.RelPermalink }}" class="col-lg-6" itemprop="image" alt="" style="display: block; margin-left: auto; margin-right: auto; ">
     </a>
     {{end}}
 
