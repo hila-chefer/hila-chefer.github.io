@@ -38,7 +38,7 @@ links:
   url: https://www.casualganpapers.com/clip_image_to_image_style_transfer_essence_transfer/TargetCLIP-explained.html
 - name: 5 min video (ECCV)
   url: https://www.youtube.com/watch?v=GY_g4aDi_ys
-url_pdf: https://arxiv.org/pdf/2110.12427.pdf
+url_pdf: https://arxiv.org/abs/2110.12427
 url_code: 'https://github.com/hila-chefer/TargetCLIP'
 # url_dataset: '#'
 # url_poster: '#'
