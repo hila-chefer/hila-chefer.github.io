@@ -1,389 +1,64 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" href="thumbnail.png" type="image/png">
 
-    <title>Hila Chefer</title>
+    <title>Hila Chefer - About</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="profile-section">
+                <div class="profile-img">
+                    <img src="images/hilac.jpeg">
+                </div>
+                <div class="profile-info">
+                    <h1>Hila Chefer</h1>
+                    <!-- <p class="title">Computer Vision Researcher</p> -->
+                    <div class="social-links">
+                        <a href="https://scholar.google.com/citations?user=B8sA9JoAAAAJ&hl=en" class="social-link google-scholar" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+                        <a href="https://x.com/hila_chefer" class="social-link twitter" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://github.com/hila-chefer" class="social-link github" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="mailto:hilach70@gmail.com" class="social-link" title="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </header>
 
-    <meta name="author" content="Hila Chefer">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    
-  </head>
+        <nav>
+            <div class="nav-links">
+                <a href="index_latest.html" class="nav-link active">About Me</a>
+                <a href="publications.html" class="nav-link">Publications</a>
+                <a href="talks.html" class="nav-link">Talks</a>
+            </div>
+        </nav>
 
-  <body>
-    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr style="padding:0px">
-              <td style="padding:2.5%;width:63%;vertical-align:middle">
-                <p class="name" style="text-align: center;">
-                  Hila Chefer
+        <main>
+            <div class="section active">
+                <p>Hi there! I am an incoming assistant professor at Tel Aviv University, starting in October 2026. I recently completed my PhD working in the Deep Learning Lab under the supervision of <a href="https://www.cs.tau.ac.il/~wolf/" class="highlight-link">Prof. Lior Wolf</a>. During my PhD, I was an intern at <b>Meta AI</b>, <b>Google Research</b> and <b>Google DeepMind</b>.</p>
+                <p>My research is centered around <b>computer vision and multi-modal learning</b>. I am particularly passionate about understanding deep foundation models and dissecting their inner mechanisms. This allows me to develop tools for effective model interpretation, correction, and control. My research spans both analysis and generation: from methods to interpret models, to approaches that control and correct predictions during inference, and more recently I had the privilege of developing foundational video models to address critical limitations in existing architectures.
+					<br>My work has been covered by <a href="https://www.theverge.com/2024/1/27/24052140/google-lumiere-ai-video-generation-runway-pika" class="highlight-link">The Verge</a>, <a href="https://www.zdnet.com/article/googles-ai-video-generator-tech-is-pretty-amazing-see-for-yourself/" class="highlight-link">ZDNET</a>, <a href="https://www.youtube.com/watch?v=m6aaQoPv5r8" class="highlight-link">Two Minute Papers</a>, and <a href="https://analyticsindiamag.com/ai-mysteries/compute-relevancy-of-transformer-networks-via-novel-interpretable-transformer/" class="highlight-link">Analytics India Magazine</a>, among others.</p>
+                <h3>Research Highlights</h3>
+                <p>• Transformer expainability for <a href="https://github.com/hila-chefer/Transformer-Explainability" class="highlight-link">single modality</a> and <a href="https://github.com/hila-chefer/Transformer-MM-Explainability" class="highlight-link">multi-modality</a><br>
+                • <a href="https://yuval-alaluf.github.io/Attend-and-Excite/" class="highlight-link">Attend-and-Excite</a>: inference-time semantic guidance for diffusion models<br>
+                • <a href="https://lumiere-video.github.io/" class="highlight-link">Lumiere</a>: a foundation model for efficient and effective text-to-video generation (with Google Research) <br>
+                • <a href="https://hila-chefer.github.io/videojam-paper.github.io/" class="highlight-link">VideoJAM</a>: a novel trainnig framework to acheive state-of-the-art motion and physics understanding in video generation (with Meta AI)<br>
+                See my <a href="publications.html" class="highlight-link">publications page</a> for more info.
+            </p>
+                <p>I'm always happy to connect! Feel free to reach out if you'd like to explore potential collaborations.</p>
+            </div>
+
+            <hr style="width: 100%; border: none; border-top: 1px solid #ccc; margin: 20px 0;">
+            <h2>News</h2>
+                <p><b>• [June'25]</b> I am giving two keynotes (<a href="https://excv-workshop.github.io/" class="highlight-link">Explainable Computer Vision: Quo Vadis? Workshop</a>,<a href="https://p13n-workshop.github.io/" class="highlight-link">P13N: Personalization in Generative AI Workshop</a>) and co-organizing two workshops (<a href="https://ramoscsv.github.io/longvid_foundations/" class="highlight-link">Long Multi-Scene Video Foundations</a>, <a href="https://sp4v.github.io/" class="highlight-link">Structural Priors for Vision</a>) at <b>ICCV'25</b>. See you in Hawaii!<br>
+                    <b>• [May'25]</b> <a href="https://hila-chefer.github.io/videojam-paper.github.io/" class="highlight-link">VideoJAM </a> is accepted to <b>ICML'25 as Spotlight (top 2.6%)</b>, see you in Vancouver!<br>
+                    <b>• [May'25]</b> I'll be joining <b>Tel Aviv University</b> as an <b>Assitant Professor</b> in the fall of 2026. If you're interested in joining my lab, please reach out via <a href="mailto:hilach70@gmail.com" class="highlight-link">email.</a><br>
                 </p>
-				<p>Hi there! I am a PhD Candidate at Tel Aviv University, working in the Deep Learning Lab under the supervision of <a href="https://www.cs.tau.ac.il/~wolf/">Prof. Lior Wolf</a>. Also, I am currently a research intern at <a href="https://ai.meta.com/">Meta AI</a> in Tel Aviv. Before that, I was a research intern at Google.
-
-					My research is centered around computer vision and multi-modal learning. I am particularly passionate about developing tools to enhance interpretability, reliability and controllability of deep foundation models, using the model's internal representations.
-					My work has been covered by <a href="https://www.theverge.com/2024/1/27/24052140/google-lumiere-ai-video-generation-runway-pika">The Verge</a>, <a href="https://www.zdnet.com/article/googles-ai-video-generator-tech-is-pretty-amazing-see-for-yourself/">ZDNET</a>, <a href="https://analyticsindiamag.com/ai-mysteries/compute-relevancy-of-transformer-networks-via-novel-interpretable-transformer/">Analytics India Magazine</a>, and others.  
-				</p>
-               </p>
-                <p style="text-align:center">
-			          <a href="mailto:hilach70@gmail.com">Email</a> &nbsp/&nbsp
-                  		  <a href="https://scholar.google.com/citations?user=B8sA9JoAAAAJ&hl=en">Google Scholar</a> &nbsp;/&nbsp;
-				  <a href="https://twitter.com/hila_chefer">Twitter</a> &nbsp;/&nbsp;
-				  <a href="https://github.com/hila-chefer">GitHub</a> &nbsp;/&nbsp;
-				  <a href="https://www.semanticscholar.org/author/Hila-Chefer/2038268012">Semantic Scholar</a> &nbsp;/&nbsp;
-				  <a href="https://www.linkedin.com/in/hila-chefer/">LinkedIn</a> &nbsp;&nbsp;
-                </p>
-              </td>
-              <td style="padding:2.5%;width:40%;max-width:40%">
-                <a href="images/hilac.jpeg"><img style="width:70%;max-width:100%;object-fit:" alt="profile photo" src="images/hilac.jpeg" class="hoverZoomLink"></a>
-              </td>
-            </tr>
-          </tbody></table>
-		 
-		  
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle">
-                <h1>Selected Publications</h1>
-                <p>
-                * indicates equal contribution.  
-				</p>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-			
-			<tr>
-				<td style="padding:2%;width:45%;vertical-align:middle">
-					<img src='images/videojam_for_personal_website_medium.gif' width="100%" height="auto">
-				  </td>
-				  <td style="padding:2%;width:75%;vertical-align:middle">
-					<papertitle>VideoJAM: Joint Appearance-Motion Representations for Enhanced Motion Generation in Video Models</papertitle>
-					<br>
-				  <strong><span style="font-size: 15px">Hila Chefer,</span></strong>
-				  <a href="https://scholar.google.com/citations?user=nIEep3cAAAAJ&hl=en" target="_blank">Uriel Singer</a>,
-				  <a href="https://scholar.google.co.il/citations?user=OfG5ctMAAAAJ&hl=en" target="_blank">Amit Zohar</a>,
-				  <a href="https://scholar.google.com/citations?user=sJKiJQwAAAAJ&hl=en" target="_blank">Yuval Kirstain</a>,
-				  <a href="https://scholar.google.com/citations?user=CP62OTMAAAAJ&hl=en" target="_blank">Adam Polyak</a>,
-				  <a href="https://ai.meta.com/people/4438198466405202/yaniv-taigman/" target="_blank">Yaniv Taigman</a>,
-				  
-				  <a href="http://www.cs.tau.ac.il/~wolf/" target="_blank">Lior Wolf </a>,
-				  <a href="https://scholar.google.com/citations?user=7vLSIswAAAAJ&hl=iw" target="_blank">Shelly Sheynin</a>
-				  <br>
-				  <!-- <em>  </em> <br> -->
-				  <a href="https://hila-chefer.github.io/videojam-paper.github.io/">Project page</a>
-				  /
-				  <a href="https://arxiv.org/abs/2502.02492">Paper</a>
-				  <p></p>
-				</td>
-		    </tr> 
-			 <tr>
-				<td style="padding:2%;width:45%;vertical-align:middle">
-					<img src='images/still_moving.jpg' width="100%" height="auto">
-				  </td>
-				  <td style="padding:2%;width:75%;vertical-align:middle">
-					<papertitle>Still-Moving: Customized Video Generation without Customized Video Data</papertitle>
-					<br>
-				  <strong><span style="font-size: 15px">Hila Chefer,</span></strong>
-				  <a href="https://scholar.google.com/citations?user=I2qheksAAAAJ">Shiran Zada</a>,
-				  <a href="https://scholar.google.com/citations?user=-KSDNZQAAAAJ&hl=en">Roni Paiss</a>,
-				  <a href="http://www.cs.huji.ac.il/~arielephrat/">Ariel Efrat</a>,
-				  <a href="https://scholar.google.com/citations?hl=en&user=lbo_R54AAAAJ">Omer Tov</a>,
-				  
-				  <a href="https://people.csail.mit.edu/mrub/">Michael Rubinstein </a>,
-				  <a href="http://www.cs.tau.ac.il/~wolf/">Lior Wolf</a>,
-				  <a href="https://www.weizmann.ac.il/math/dekel/home">Tali Dekel</a>,
-				  <a href="https://cris.technion.ac.il/en/persons/tomer-michaeli">Tomer Michaeli</a>,
-				  <a href="https://inbar-mosseri.github.io/">Inbar Mosseri</a>
-				  <br>
-				  <em> SIGGRAPH Asia (Journal), 2024 </em> <br>
-				  <a href="https://still-moving.github.io/">Project page</a>
-				  /
-				  <a href="https://arxiv.org/abs/2407.08674">Paper</a>
-				  <p></p>
-				</td>
-		    </tr> 
-			 <tr>
-				<td style="padding:2%;width:45%;vertical-align:middle">
-					<img src='images/lumiere.gif' width="100%" height="auto">
-				  </td>
-				  <td style="padding:2%;width:75%;vertical-align:middle">
-					<papertitle>Lumiere: A Space-Time Diffusion Model for Video Generation</papertitle>
-					<br>
-				  <a>Omer Bartal*</a>,
-				  <strong><span style="font-size: 15px">Hila Chefer*,</span></strong>
-				  <a href="https://scholar.google.com/citations?hl=en&user=lbo_R54AAAAJ">Omer Tov*</a>,
-				  <a href="https://scholar.google.com/citations?user=LQvi5XAAAAAJ&hl=en">Charles Herrmann</a>,
-				  <a href="https://scholar.google.com/citations?user=-KSDNZQAAAAJ&hl=en">Roni Paiss</a>,
-				  <a href="https://scholar.google.com/citations?user=I2qheksAAAAJ">Shiran Zada</a>,
-				  <a href="http://www.cs.huji.ac.il/~arielephrat/">Ariel Efrat</a>,
-				  
-				  <a href="https://hurjunhwa.github.io/">Junhwa Hur </a>,
-				  <a href="https://people.csail.mit.edu/yzli/">Yuanzhen Li</a>
-				  <a href="https://cris.technion.ac.il/en/persons/tomer-michaeli">Tomer Michaeli</a>,
-				  <a href="https://www.oliverwang.info/">Oliver Wang</a>,
-				  <a href="https://deqings.github.io/">Deqing Sun</a>,
-					<a href="https://www.weizmann.ac.il/math/dekel/home">Tali Dekel</a>,
-				  <a href="https://inbar-mosseri.github.io/">Inbar Mosseri</a>
-				  <br>
-				  <em> SIGGRAPH Asia, 2024 </em> <br>
-				  <a href="https://lumiere-video.github.io/">Project page</a>
-				  /
-				  <a href="https://arxiv.org/abs/2401.12945">Paper</a>
-				  <p></p>
-				</td>
-		    </tr> 
-			 <tr>
-				<td style="padding:2%;width:35%;vertical-align:middle">
-				  <img src='images/teaser_hidden_language.gif' width="100%" height="auto">
-				</td>
-				<td style="padding:2%;width:0%;vertical-align:middle">
-				  <papertitle>The Hidden Language of Diffusion Models</papertitle>
-				  <br>
-				  <strong><span style="font-size: 15px">Hila Chefer</span></strong>,
-				  <a href="https://scholar.google.com/citations?user=gypv57sAAAAJ">Oran Lang</a>,
-				  <a href="https://mega002.github.io/">Mor Geva</a>,
-				  <a href="https://www.linkedin.com/in/volodymyr-polosukhin-b685511b9/">Volodymyr Polosukhin</a>,
-				  <br>
-				  <a href="https://assafshocher.github.io/">Assaf Shocher</a>,
-				  <a href="http://www.weizmann.ac.il/math/irani/">Michal Irani</a>,
-				  <a href="https://inbar-mosseri.github.io/">Inbar Mosseri</a>,
-				  <a href="http://www.cs.tau.ac.il/~wolf/">Lior Wolf</a>
-				  <br>
-				  <em> ICLR, 2024 </em> <br>
-				  <a href="https://hila-chefer.github.io/Conceptor/">Project page</a>
-				  /
-				  <a href="https://arxiv.org/abs/2306.00966">Paper</a>
-				  <p></p>
-				</td>
-			  </tr> 
-			  <tr>
-				<td style="padding:2%;width:0%;vertical-align:middle">
-				  <img src='images/attend_and_excite.png' width="100%" height="auto">
-				</td>
-				<td style="padding:2%;width:0%;vertical-align:middle">
-				  <papertitle>Attend-and-Excite: Attention-Based Semantic Guidance for Text-to-Image Diffusion Models</papertitle>
-				  <br>
-				  <strong><span style="font-size: 15px">Hila Chefer*</span></strong>,
-				  <a href="https://yuval-alaluf.github.io/research.html">Yuval Alaluf*</a>,
-				  <a href="https://yael-vinker.github.io/website/">Yael Vinker</a>,
-				  <a href="https://www.cs.tau.ac.il/~wolf/">Lior Wolf</a>,
-				  <a href="https://danielcohenor.com/publications/">Daniel Cohen-Or</a>
-				  <br>
-				<em> SIGGRAPH (journal), 2023 </em> <br>
-				  <a href="https://attendandexcite.github.io/Attend-and-Excite/">Project page</a>
-				  /
-				  <a href="https://arxiv.org/abs/2301.13826">Paper</a>
-				  <p></p>
-				</td>
-			  </tr> 
-			  <tr>
-				<td style="padding:2%;width:0%;vertical-align:middle">
-				  <img src='images/robust_vit_crop.png' width="100%" height="auto">
-				</td>
-				<td style="padding:2%;width:0%;vertical-align:middle">
-				  <papertitle>Optimizing Relevance Maps of Vision Transformers Improves Robustness</papertitle>
-				  <br>
-				  <strong><span style="font-size: 15px">Hila Chefer</span></strong>,
-				  <a href="https://idansc.github.io/">Idan Schwartz</a>,
-				  <a href="https://www.cs.tau.ac.il/~wolf/">Lior Wolf</a>
-				  <br>
-				  <em> NeurIPS, 2022 </em> <br>
-				  <a href="https://github.com/hila-chefer/RobustViT">Project page</a>
-				  /
-				  <a href="https://arxiv.org/abs/2206.01161">Paper</a>
-				  <p></p>
-				</td>
-			  </tr> 
-			  <tr>
-				<td style="padding:2%;width:0%;vertical-align:middle">
-				  <img src='images/target_clip.png' width="100%" height="auto">
-				</td>
-				<td style="padding:2%;width:0%;vertical-align:middle">
-				  <papertitle>Image-Based Clip-Guided Essence Transfer</papertitle>
-				  <br>
-				  <strong><span style="font-size: 15px">Hila Chefer</span></strong>,
-				  <a href="https://sagiebenaim.github.io/">Sagie Benaim</a>,
-				  <a href="https://scholar.google.com/citations?user=-KSDNZQAAAAJ&hl=en">Roni Paiss</a>,
-				  <a href="https://www.cs.tau.ac.il/~wolf/">Lior Wolf</a>
-				  <br>
-				  <em> ECCV, 2022 </em> <br>
-				  <a href="https://github.com/hila-chefer/TargetCLIP">Project page</a>
-				  /
-				  <a href="https://arxiv.org/abs/2110.12427">Paper</a>
-				  <p></p>
-				</td>
-			  </tr> 
-			  <tr>
-				<td style="padding:2%;width:0%;vertical-align:middle">
-				  <img src='images/no_token.png' width="100%" height="auto">
-				</td>
-				<td style="padding:2%;width:0%;vertical-align:middle">
-				  <papertitle>No Token Left Behind: Explainability-Aided Image Classification and Generation</papertitle>
-				  <br>
-				  <a href="https://scholar.google.com/citations?user=-KSDNZQAAAAJ&hl=en">Roni Paiss</a>,
-				  <strong><span style="font-size: 15px">Hila Chefer</span></strong>,
-				  <a href="https://www.cs.tau.ac.il/~wolf/">Lior Wolf</a>
-				  <br>
-				  <em> ECCV, 2022 </em> <br>
-				  <a href="https://arxiv.org/abs/2204.04908">Paper</a>
-				  <p></p>
-				</td>
-			  </tr> 
-			  <tr>
-				<td style="padding:2%;width:0%;vertical-align:middle">
-				  <img src='images/generic_expl.png' width="100%" height="auto">
-				</td>
-				<td style="padding:2%;width:0%;vertical-align:middle">
-				  <papertitle>Generic Attention-model Explainability for Interpreting Bi-Modal and Encoder-Decoder Transformers</papertitle>
-				  <br>
-				  <strong><span style="font-size: 15px">Hila Chefer</span></strong>,
-				  <a href="https://www.gurshir.com/">Shir Gur</a>,
-				  <a href="https://www.cs.tau.ac.il/~wolf/">Lior Wolf</a>
-				  <br>
-				  <em> ICCV, 2021 (Oral) </em> <br>
-				  <a href="https://github.com/hila-chefer/Transformer-MM-Explainability">Project page</a>
-				  /
-				  <a href="https://arxiv.org/abs/2103.15679">Paper</a>
-				  <p></p>
-				</td>
-			  </tr> 
-			  <tr>
-				<td style="padding:2%;width:0%;vertical-align:middle">
-				  <img src='images/transformer_expl.png' width="100%" height="auto">
-				</td>
-				<td style="padding:2%;width:0%;vertical-align:middle">
-				  <papertitle>Transformer Interpretability Beyond Attention Visualization</papertitle>
-				  <br>
-				  <strong><span style="font-size: 15px">Hila Chefer</span></strong>,
-				  <a href="https://www.gurshir.com/">Shir Gur</a>,
-				  <a href="https://www.cs.tau.ac.il/~wolf/">Lior Wolf</a>
-				  <br>
-				  <em> CVPR, 2021 </em> <br>
-				  <a href="https://github.com/hila-chefer/Transformer-Explainability">Project page</a>
-				  /
-				  <a href="https://arxiv.org/abs/2012.09838">Paper</a>
-				  <p></p>
-				</td>
-			  </tr> 
-          </tbody></table>
-
-		  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-			<tr>
-			<td style="padding:20px;width:100%;vertical-align:middle">
-			  <h1>Selected Talks</h1>
-			</td>
-		  </tr>
-		</tbody></table>
-		<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-  <tr>.           
-		   <tr>
-			<td style="padding:2%;width:45%;vertical-align:middle">
-				<img src='images/atv.jpeg' width="100%" height="auto">
-			  </td>
-			  <td style="padding:2%;width:75%;vertical-align:middle">
-				<papertitle>All Things ViTs: Understanding and Interpreting Attention in Vision</papertitle>
-				<br>
-				<strong><span style="font-size: 15px">Hila Chefer*,</span></strong>
-				<a href="https://sayak.dev/">Sayak Paul*</a>
-				<br>
-				<em> CVPR Tutorial, 2023 </em> <br>
-				<a href="https://all-things-vits.github.io/atv/">Tutorial page</a>
-				/
-				<a href="https://youtu.be/ma3NYVo8Im0">Recording</a>
-				<p></p>
-			  </td>
-		  </tr> 
-		   <tr>
-			  <td style="padding:2%;width:30%;vertical-align:middle">
-				<img src='images/columbia.jpeg' width="100%" height="auto">
-			  </td>
-			  <td style="padding:2%;width:75%;vertical-align:middle">
-				<papertitle>Transformer Explainability Beyond Accountability</papertitle>
-				<br>
-				<strong><span style="font-size: 15px">Hila Chefer</span></strong>
-				<br>
-				<em> Columbia Vision Seminar </em> <br>
-				<a href="https://m.youtube.com/watch?v=A1tqsEkSoLg">Recording</a>
-				<p></p>
-			  </td>
-			</tr> 
-			<tr>
-				<td style="padding:2%;width:30%;vertical-align:middle">
-				  <img src='images/microsoft.png' width="100%" height="auto">
-				</td>
-				<td style="padding:2%;width:75%;vertical-align:middle">
-				  <papertitle>Intro to Transformers and Transformer Explainability</papertitle>
-				  <br>
-				  <strong><span style="font-size: 15px">Hila Chefer</span></strong>
-				  <br>
-				  <em> Microsoft Data Science Bond </em> <br>
-				  <a href="https://youtu.be/a0O_QhE9XFM">Recording</a>
-				  <p></p>
-				</td>
-			  </tr> 
-			  <tr>
-				<td style="padding:2%;width:45%;vertical-align:middle">
-					<img src='images/cae10efc-b173-448c-96fb-e20091c24105.jpeg' width="100%" height="auto">
-				  </td>
-				  <td style="padding:2%;width:75%;vertical-align:middle">
-					<papertitle>Lumiere: A Space-Time Diffusion Model for Video Generation</papertitle>
-					<br>
-					<strong><span style="font-size: 15px">Hila Chefer</span></strong>
-					<br>
-					<a href="https://youtu.be/-zbCjBULJBk">Recording</a>
-					<p></p>
-				  </td>
-		          </tr> 
-			  <tr>
-				<td style="padding:2%;width:30%;vertical-align:middle">
-				  <img src='images/voxel.jpeg' width="100%" height="auto">
-				</td>
-				<td style="padding:2%;width:75%;vertical-align:middle">
-				  <papertitle>Leveraging Attention for Improved Accuracy and Robustness</papertitle>
-				  <br>
-				  <strong><span style="font-size: 15px">Hila Chefer</span></strong>
-				  <br>
-				  <em> Voxel51 Computer Vision Meetup</em> <br>
-				  <a href="https://www.youtube.com/watch?v=QYXIHIvesYo">Recording</a>
-				  <p></p>
-				</td>
-			  </tr> 
-			  <td style="padding:2%;width:30%;vertical-align:middle">
-				<img src='images/microsoft.png' width="100%" height="auto">
-			  </td>
-			  <td style="padding:2%;width:75%;vertical-align:middle">
-				<papertitle>Attend-and-Excite: Attention-Based Semantic Guidance for Text-to-image Diffusion Models</papertitle>
-				<br>
-				<strong><span style="font-size: 15px">Hila Chefer</span></strong>
-				<br>
-				<em> Microsoft Data Science Bond </em> <br>
-				<a href="https://www.youtube.com/watch?v=RkI4BFG0GP0">Recording</a>
-				<p></p>
-			  </td>
-			</tr> 
-		</tbody></table>
-
-		<h2 align="center">Contact: hilach70 at gmail dot com</h2>
-
-          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-            <tr>
-              <td>
-                <br>
-                <p align="right">
-                  <font size="1">
-                    <a href="https://jonbarron.info/">webpage template from Jon Barron</a>
-                  </font>
-                </p>
-              </td>
-            </tr>
-			</tbody>
-		  </table>
-        </td>
-      </tr>
-    </table>
-  </body>
+        </main>
+    </div>
+</body>
 </html>
