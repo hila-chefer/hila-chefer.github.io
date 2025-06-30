@@ -14,8 +14,6 @@
     background-size: 100% 60%; /* Always show the highlight at 60% of the text height (adjust as needed) */
 }
 
-
-
 .nav-link-highlight {
                 color: inherit; /* Keeps the text color the same as its parent (e.g., black) */
     text-decoration: none; /* Removes the default underline */
@@ -352,39 +350,162 @@
         }
 
         @media (max-width: 768px) {
+            /* Make container even wider */
             .container {
-                padding: 15px;
+                padding: 5px;
+                max-width: 98%;
             }
             
+            /* Keep header content centered with reduced spacing */
             .profile-section {
                 flex-direction: column;
-                gap: 2rem;
+                gap: 1rem;
+                text-align: center;
             }
             
             .profile-info {
                 text-align: center;
             }
             
+            /* Reduce spacing between image and text */
+            .profile-img {
+                margin-bottom: 0.5rem;
+            }
+            
+            /* Reduce header padding and ensure centering */
             header {
-                padding: 2rem 1.5rem;
+                padding: 1rem 0.8rem;
+                margin-bottom: 0.8rem;
+                text-align: center;
             }
             
+            /* Header font sizes with reduced spacing */
             h1 {
-                font-size: 2.2rem;
+                font-size: 1.6rem;
+                margin-bottom: 0.2rem;
+                text-align: center;
             }
             
+            .title {
+                font-size: 1rem;
+                margin-bottom: 0.8rem;
+                text-align: center;
+            }
+            
+            /* Social links - ensure they stay centered */
+            .social-links {
+                display: flex;
+                gap: 0.8rem;
+                justify-content: center;
+                margin-top: 0.5rem;
+            }
+            
+            .social-link {
+                width: 40px;
+                height: 40px;
+                font-size: 1.1rem;
+            }
+            
+            /* Navigation font sizes */
             .nav-links {
-                gap: 1rem;
+                gap: 0.8rem;
                 padding: 0 1rem;
             }
             
             .nav-link {
-                padding: 0.5rem 0.8rem;
-                font-size: 0.85rem;
+                padding: 0.4rem 0.7rem;
+                font-size: 0.75rem;
             }
             
+            /* Make sure main content uses full width */
             main {
-                padding: 2rem;
+                padding: 1rem;
+                margin-bottom: 0.8rem;
+            }
+            
+            /* Section headings */
+            .section h2 {
+                font-size: 1.4rem;
+                margin-bottom: 1rem;
+            }
+            
+            .section h3 {
+                font-size: 1.1rem;
+                margin-bottom: 0.8rem;
+                margin-top: 1.5rem;
+            }
+            
+            .section p {
+                font-size: 0.95rem;
+                line-height: 1.5;
+                margin-bottom: 0.8rem;
+            }
+            
+            /* Publication cards - reduce top whitespace and make wider */
+            .publication {
+                padding: 0.7rem 1rem 1rem 1rem;
+                margin-bottom: 1rem;
+                border-radius: 15px;
+            }
+            
+            /* Reduce header top spacing */
+            .publication-header {
+                margin-bottom: 0.6rem;
+                margin-top: 0;
+            }
+            
+            /* Publication font sizes */
+            .publication h3 {
+                font-size: 1rem;
+                margin-bottom: 0.4rem;
+                margin-top: 0;
+                line-height: 1.05;
+            }
+            
+            .publication .authors {
+                font-size: 0.85rem;
+                margin-bottom: 0.25rem;
+                line-height: 1.1;
+            }
+            
+            .publication .venue {
+                font-size: 0.8rem;
+                margin-bottom: 0.6rem;
+                line-height: 1.1;
+            }
+            
+            /* Center the media and make layout more compact */
+            .publication-visual {
+                max-height: 18vh;
+                max-width: 95%;
+                width: auto;
+                height: auto;
+                display: block;
+                margin: 0.6rem auto;
+            }
+            
+            /* Tighter button spacing */
+            .publication-links {
+                margin-top: 0.6rem;
+                gap: 0.6rem;
+            }
+            
+            .publication-link {
+                padding: 0.45rem 0.9rem;
+                font-size: 0.75rem;
+                border-radius: 20px;
+            }
+            
+            .publication-description {
+                font-size: 1rem;
+                margin-top: 0.8rem;
+                line-height: 1.5;
+            }
+            
+            /* Footer text */
+            footer {
+                font-size: 0.9rem;
+                padding: 1.5rem;
             }
             
             body {
